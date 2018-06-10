@@ -5,10 +5,10 @@ var mysql = require('mysql');
 var coordtransform = require('coordtransform')
 
 var connection = mysql.createConnection({
-    host: '101.132.98.93',
-    user: 'root',
-    password: '123456',
-    database: 'imageIndex'
+    host: '********',
+    user: '*********',
+    password: '*********',
+    database: '**********'
 });
 connection.connect();
 
