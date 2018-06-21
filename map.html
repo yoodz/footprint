@@ -93,7 +93,7 @@
                                 position: mapList[i].newGps
                             })
                             content = [];
-                            content.push("<img style='width=200px;height:200px' src="+ mapList[i].url + ">");
+                            content.push("<img style='width=200px;height:200px' src="+ mapList[i].url + "?imageMogr2/thumbnail/480x480/auto-orient>");
                             marker.content = createInfoWindow(title, content.join("<br/>"));
                             marker.on('click', onMarkerClick);
                             marker.emit('click', { target: marker });
